@@ -1,3 +1,4 @@
+
 <template>
   <div class="car col-4">
     <router-link :to="{ name: 'CarDetails', params: { id: car.id } }">

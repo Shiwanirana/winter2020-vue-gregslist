@@ -1,9 +1,21 @@
 <template>
   <nav class="navbar navbar-expand navbar-light bg-light">
     <div class="nav navbar-nav">
-      <router-link :to="{ name: 'Cars' }" class="nav-item nav-link active">
-        Cars
-      </router-link>
+      <button class="btn btn-outline-danger m-4">
+        <router-link :to="{ name: 'Cars' }" class="nav-item nav-link active">
+          Cars
+        </router-link>
+      </button>
+      <button class="btn btn-outline-warning m-4">
+        <router-link :to="{name: 'Houses'}" class="nav-item nav-link active">
+          Houses
+        </router-link>
+      </button>
+      <!-- <button class="btn btn-outline-success m-4">
+        <router-link :to="{name: 'Jobs'}" class="nav-item nav-link active">
+          Jobs
+        </router-link>
+      </button> -->
       <!-- <router-link class="nav-item nav-link" :to="{ name: 'About' }">
         About
       </router-link> -->
